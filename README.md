@@ -37,6 +37,10 @@ You can download images with [HEK API](https://www.lmsal.com/hek/api.html) or wi
 ## Model
 ![model-architecture](imgs/U-Net.png "modified-unet")
 
+## Videos
+[![AR](imgs/video-AR.png)](https://youtu.be/Sp3VLSgxK3w "AR")
+[![CH](imgs/video-CH.png)](https://youtu.be/OX6s8WnC1ho "CH")
+
 ## References
 <a id="1">[1]</a> 
 Olaf Ronneberger, Philipp Fischer, & Thomas Brox. (2015). 
