@@ -48,7 +48,7 @@ def deconv2_block(inputs, filters, batch_norm=True):
     return tensor
 
 
-def unet(input_shape, filters, layers=4, batch_norm=True, drop_prob=0.0):
+def scss_net(input_shape, filters, layers=4, batch_norm=True, drop_prob=0.0):
     """
     Customizes U-Net[1] architecture for segmentation of solar active regions.
     [1]: https://arxiv.org/abs/1505.04597
