@@ -1,10 +1,10 @@
 # Solar corona structures segmentation by deep learning
 
-This repository provides source code for reproducing coronal holes and active region segmentations.
-Results of our work are published in the paper: (not yet published).
+This repository was created to demonstrate results of my diploma thesis. Thesis in Slovak language is available at 
+following [link](https://opac.crzp.sk/?fn=detailBiblioForm&sid=14E8631BC0ED910BF5FAA533AA8B).
 
-We trained two segmentation models with modified U-Net [[1]](#1) architecture. The first model was trained for coronal hole 
-segmentation, and the second model was trained for the segmentation of active regions.
+We trained two segmentation models with modified U-Net [[1]](#1) architecture. We named our model SCSS-Net - Solar Corona Structures Segmentation. 
+The first model was trained for coronal hole segmentation, and the second model was trained for the segmentation of active regions.
 
 ## Data
 
@@ -35,11 +35,13 @@ You can download images with [HEK API](https://www.lmsal.com/hek/api.html) or wi
 - [SPoCA](https://www.lmsal.com/hek/api.html)
 
 ## Model
-![model-architecture](imgs/U-Net.png "modified-unet")
+![model-architecture](imgs/U-Net.png "SCCS-Net")
 
-## Videos
-[![AR](imgs/video-AR.png)](https://youtu.be/Sp3VLSgxK3w "AR")
-[![CH](imgs/video-CH.png)](https://youtu.be/OX6s8WnC1ho "CH")
+## Videos (External)
+Clicking on image opens video uploaded on YouTube.
+
+[![AR](imgs/video-AR.png)](https://youtu.be/Sp3VLSgxK3w "AR - YouTube video")
+[![CH](imgs/video-CH.png)](https://youtu.be/OX6s8WnC1ho "CH - YouTube video")
 
 ## References
 <a id="1">[1]</a> 
