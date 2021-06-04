@@ -6,4 +6,7 @@
 /.vscode/
 /.idea/
 /results/
+/notebooks/wandb/
+/src/__pycache__/
+/workspace.code-workspace
 
