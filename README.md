@@ -49,7 +49,7 @@ You can download images with [HEK API](https://www.lmsal.com/hek/api.html) or wi
 - [SPoCA](https://www.lmsal.com/hek/api.html)
 
 ## SCSS - Solar coronal structures segementation model
-SCSS model is based on [U-Net](https://arxiv.org/abs/1505.04597) architecture used for segmentation of biomedical images. Image below shows how SCSS model architecture.
+SCSS model is based on [U-Net](https://arxiv.org/abs/1505.04597) architecture used for segmentation of biomedical images. Summary of model can be found in [modelsummary.txt](https://github.com/matinus99/sun-segmentation/blob/main/modelsummary.txt) file. Image below shows how SCSS model architecture.
 ![model-architecture](imgs/U-Net.png "SCCS-Net")
 
 ## Videos (External)
